@@ -1,0 +1,69 @@
+.navbar {
+    background: #0000008a !important;
+    padding: 15px 40px;
+    backdrop-filter: blur(5px);
+}
+
+.l-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    padding: 2px;
+    margin-top: 6px;
+}
+
+.l-cont {
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.l-cont:hover {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.r-cont h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.r-cont a {
+    color: #fff;
+}
+
+.r-cont a:hover {
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+.navbar-toggler-icon{
+    width: 100%;
+    height: 100%;
+}
+
+/* =-=-=-=-=-=- */
+@media screen and (max-width : 425px) {    
+
+.l-img {
+    width: 37px;
+    height: 37px;
+}
+.navbar {
+    padding: 10px 0px;
+}
+.r-cont h3 {
+    font-size: 12px;
+    text-align: center;
+}
+
+}
